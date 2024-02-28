@@ -124,8 +124,10 @@ MonoBehaviour:
   bola: {fileID: 0}
   multiplier: 3
   color: {r: 1, g: 0, b: 0.8245816, a: 0}
+  score: 5
   audioManager: {fileID: 0}
   vfxManager: {fileID: 0}
+  scoreManager: {fileID: 0}
 --- !u!95 &4167678551589525387
 Animator:
   serializedVersion: 5
