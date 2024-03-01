@@ -43,8 +43,8 @@ MonoBehaviour:
     y: 0
     width: 606
     height: 644
-  m_MinSize: {x: 202, y: 221}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 200, y: 200}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 20}
   m_Panes:
   - {fileID: 20}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 52
+  controlID: 39
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,8 +120,8 @@ MonoBehaviour:
     y: 0
     width: 295
     height: 644
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 18}
   m_Panes:
   - {fileID: 18}
@@ -251,7 +251,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 1
-  controlID: 53
+  controlID: 40
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 50}
   m_MaxSize: {x: 24288, y: 8096}
   vertical: 0
-  controlID: 54
+  controlID: 41
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,14 +380,14 @@ MonoBehaviour:
     m_KeySerializationHelper:
     - {fileID: 1882482168360871507, guid: 54a9c15059d9f29479f8d8fc1a621935, type: 2}
     m_ValueSerializationHelper:
-    - e00: 0.63232
+    - e00: 1
       e01: 0
       e02: 0
-      e03: -63.916767
+      e03: 0
       e10: 0
-      e11: 0.63232
+      e11: 1
       e12: 0
-      e13: 114.46987
+      e13: 0
       e20: 0
       e21: 0
       e22: 1
@@ -518,7 +518,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scenes
+    - Packages
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -526,16 +526,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scenes
+  - Packages
   m_LastFoldersGridSize: -1
   m_LastProjectPath: D:\! Programs\Unity Programs\Save project\EghaSB_Pinball
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 0e5c0000
-    m_LastClickedID: 23566
-    m_ExpandedIDs: 00000000fa5b000000ca9a3b
+    m_SelectedIDs: ffffff7f
+    m_LastClickedID: 2147483647
+    m_ExpandedIDs: 00000000e878000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -563,7 +563,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000fa5b0000
+    m_ExpandedIDs: 00000000e8780000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -703,9 +703,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 
-      m_LastClickedID: 0
-      m_ExpandedIDs: 06ecfeff30f5feff8e1fffff2624ffff2630ffff286affff7e6affff00ceffffdee7ffff2cfbfffff6590000665a0000245b0000227d0000
+      m_SelectedIDs: fa52ffff
+      m_LastClickedID: -44294
+      m_ExpandedIDs: 0c53ffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1148,11 +1148,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.45689213, y: -0.037340183, z: 0.019201448, w: 0.88853276}
     speed: 2
-    m_Value: {x: 0.45689213, y: -0.037340183, z: 0.019201448, w: 0.8885328}
+    m_Value: {x: 0.45689127, y: -0.037340112, z: 0.019201411, w: 0.8885311}
   m_Size:
-    m_Target: 372.33957
+    m_Target: 368.58487
     speed: 2
-    m_Value: 372.33957
+    m_Value: 385.95273
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1244,7 +1244,7 @@ MonoBehaviour:
     m_HSlider: 0
     m_VSlider: 0
     m_IgnoreScrollWheelUntilClicked: 0
-    m_EnableMouseInput: 0
+    m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
     m_EnableSliderZoomVertical: 0
     m_UniformScale: 1
