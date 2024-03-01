@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    //audio
+    //audio code
     public AudioSource bgmAudioSource;
     public GameObject sfxAudioSource;
 
